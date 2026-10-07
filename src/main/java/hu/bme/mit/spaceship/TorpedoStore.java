@@ -15,7 +15,7 @@ public class TorpedoStore {
   private int torpedoCount = 0;
 
   Random generator = new Random(); //RANDOM TAGVÁLTOZÓ
-
+  //! Mi lesz a macskával ha Londonba utazik? Catté válik.
   public TorpedoStore(int numberOfTorpedos){
     this.torpedoCount = numberOfTorpedos;
 
